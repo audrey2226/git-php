@@ -1,0 +1,122 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    justify-content: flex-end;
+
+}
+
+.a{ text-decoration: none;
+    color:rgb(45,45,45);
+    font-family:arial; 
+    font-size: 13px
+}
+.gmail {
+    grid-area: Gmail;
+    display: :flex;
+    padding: .5em;
+    border: 3px black;
+    justify-content:center;
+    align-self: center;
+
+}
+
+.img {
+    grid-area: images;
+    justify-content:center;
+    align-self: center;
+    padding: .5em;
+
+}
+
+.menu {
+    grid-area: menu;
+    justify-content:center;
+    align-self: center;
+    padding: .5em;
+}
+
+.connexion {
+    grid-area: connexion;
+    justify-content:center;
+    align-self: center;
+    padding: .5em;
+    background-color : rgb(66,133,244);
+    height : 30px
+    width: 30px
+    text-align: center ;
+    color: white ;
+    font-weight: bold 
+    border: 1px solid blue;
+}
+
+.left {
+  background: #FFFFFF;
+}
+
+.middle {
+  background: #FFFFFF;
+}
+
+.header {
+ position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+
+}
+
+}
+body
+{
+	 margin: 6px
+	max-width: 650px;
+
+}
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px
+    padding: .5em;
+	margin:100px;
+	line-height: 1.6;
+	font-size: 18px;
+	margin: 3px;
+}
+.logo {
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
+ 	 height: 50px;
+}
+
+.recherche {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+ 	 height: 5px;
+ 	 width: 98,5%
+ 	 padding: 10px 10px 10px 10px;
+ 	 border-radius: 5px;
+}
+
+
+
+ 	 }
+.button {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+ 	 height: 5px;
+ 	}
+
+ .footer {
+
+ 	position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+ }
